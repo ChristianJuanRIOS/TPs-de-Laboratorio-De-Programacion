@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A,B,C, suma=0;
+    cout<<"Primera nota: ";
+    cin>>A;
+    cout<<"Segunda nota: ";
+    cin>>B;
+    cout<<"Tercera nota: ";
+    cin>>C;
+    
+    suma = A + B + C;
+    cout<<"Su promedio es: "<<suma<<endl;
+    
+    return 0;
+}
