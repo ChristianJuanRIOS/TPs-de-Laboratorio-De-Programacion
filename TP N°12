@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A;
+    int F= 0;
+    cout << "Inserte los grados centigrados: ";
+    cin >> A;
+    
+    F = ((A * 9)/5) + 32;
+    
+    cout << "En grados Fahrenheit es: " << F << endl;
+    
+    return 0;
+}
