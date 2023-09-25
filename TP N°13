@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int A= 0;  int B= 0;
+    cout << "ingrese A: ";
+    cin >> A;
+    cout << "ingrese B: ";
+    cin >> B;
+    cout << "A vale: " << B << endl;
+    cout << "B vale: " << A << endl;
+
+    return 0;
+}
