@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int num = 190;
+    if(num < 100) {
+    cout<<"number is less than 100"<<endl;
+    } if(num > 50) {
+    cout << "number is greater than 50" << endl;
+    }
+    return 0;
+}
