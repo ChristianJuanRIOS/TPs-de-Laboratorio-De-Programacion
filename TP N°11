@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int A,B, superficie=0;
+    cout<<"Altura del triangulo: "; 
+    cin>> A;
+    cout<<"Base del triangulo: ";
+    cin>> B; 
+    
+    superficie = (B * A)/2;
+    
+    cout<<"la superficie del triangulo es: "<<superficie<<endl;
+    
+    return 0;
+}
