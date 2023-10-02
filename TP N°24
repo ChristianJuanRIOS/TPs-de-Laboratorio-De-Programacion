@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int N;
+    int i= 1;
+    cout << "Ingrese valor de N: ";
+    cin >> N;
+    while(i <= N) {
+    cout << "Hola mundo" << endl;
+    i++;
+    }
+
+    return 0;
+}
