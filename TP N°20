@@ -7,24 +7,25 @@ int main()
     int DDD= 0;
     cout << "Ingrese el código de area: ";
     cin >> DDD;
-    if(DDD==61)
+    if(DDD==61) {
     cout << "El destino es Brasilia" << endl;
-    else if(DDD == 71)
+    } else if(DDD == 71) {
     cout << "El destino es Salvador" << endl;
-    else if(DDD == 11)
+    } else if(DDD == 11) {
     cout << "El destino es Sao Paulo" << endl;
-    else if(DDD == 21)
+    } else if(DDD == 21) {
     cout << "El destino es Rio de Janeiro" << endl;
-    else if(DDD == 32)
+    } else if(DDD == 32) {
     cout << "El destino es Juiz de Fora" << endl;
-    else if(DDD == 19)
+    } else if(DDD == 19) {
     cout << "El destino es Campinas" << endl;
-    else if(DDD == 27)
+    } else if(DDD == 27) {
     cout << "El destino es Vitoria" << endl;
-    else if(DDD == 31)
+    } else if(DDD == 31) {
     cout << "El destino es Belo Horizonte" << endl;
-    else
+    } else {
     cout << "DDD no encontrado " << endl;
+    }
     
     return 0;
 }
