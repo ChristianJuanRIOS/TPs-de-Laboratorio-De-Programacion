@@ -7,7 +7,7 @@ int main()
     int i;
      while(i<=100)
    {
-     cout << "HOLA MUNDO" << endl;
+     cout << "Hola mundo" << endl;
      i++;
    }
 
